@@ -16,6 +16,9 @@
 - `DAX_Measures.txt` — date table, relationships guidance, base measures and time-intelligence measures.
 - `Coffee_Insights_Theme.json` — importable Power BI theme.
 
+## Live Dashboard  
+file:///C:/Users/adity/Downloads/Coffee%20Insights%20Dashboard.html 
+
 ## Dashboard Layout
 
 The layout is fitted to the coffee data, which has 8 drinks, 12 months and 3 times of day.
