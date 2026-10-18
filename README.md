@@ -16,6 +16,20 @@
 - `DAX_Measures.txt` — date table, relationships guidance, base measures and time-intelligence measures.
 - `Coffee_Insights_Theme.json` — importable Power BI theme.
 
+## Dashboard Layout
+
+The layout is fitted to the coffee data, which has 8 drinks, 12 months and 3 times of day.
+
+| Area | Place this visual |
+|---|---|
+| Left panel, under the girl | 3 slicers: Month, Coffee type, Time of day |
+| Top row, 4 cards | Total revenue, cups sold, average price per cup, best-selling drink |
+| Middle row, left | Bar chart of revenue by coffee type |
+| Middle row, right | Area or line chart of monthly revenue |
+| Bottom row, left | Column chart of cups sold by hour of day |
+| Bottom row, middle | Column chart of cups sold by weekday |
+| Bottom row, right | Donut chart of revenue by time of day |
+
 ## Build order
 1. **Power Query cleaning:** Home → Transform data. Use the M query as a starter, update the CSV path, and verify the preview.
 2. **Date table:** Create the `Calendar` table from the DAX file.
